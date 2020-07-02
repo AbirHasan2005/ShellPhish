@@ -33,21 +33,29 @@ git clone https://github.com/thelinuxchoice/shellphish
 cd shellphish
 chmod +x shellphish.sh
 bash shellphish.sh
+```
 
 NOTE: To work properly in Android you have to Turn On Mobile Data and Hotspot. Without Mobile Data and Hotspot it will not download and generate URL.
-```
+
 
 ### Telegram:
-```
-For any kind of help, support, suggetion and request ask in my
-Telegram Group: http://t.me/groupnahidhasanabir
 
-Also join
-Telegram Channel: http://t.me/teletechstore
-for updates.
+For any kind of help, support, suggetion and request ask in my
+Telegram Group:
 ```
+http://t.me/groupnahidhasanabir
+```
+Also join
+Telegram Channel:
+```
+http://t.me/teletechstore
+```
+for updates.
+
 
 ### Blog:
+
+My Blog Link:
 ```
-My Blog Link: https://teletechstore.blogspot.com
+https://teletechstore.blogspot.com
 ```
