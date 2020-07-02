@@ -9,7 +9,15 @@
 
 Phishing Tool for Instagram, Facebook, Twitter, Snapchat, Github, Yahoo, Protonmail, Google, Spotify, Netflix, Linkedin, Wordpress, Origin, Steam, Microsoft, InstaFollowers, Pinterest +1 customizable
 
-### Features:
+## Mod Features:
+• Colourized Text
+• Animations
+• In-built Setup for Termux
+• More extra features
+• More improvements
+• Bugs cleared
+• Fixed URL not showing
+
 ### Port Forwarding using Ngrok or Serveo
 
 ## Legal disclaimer:
