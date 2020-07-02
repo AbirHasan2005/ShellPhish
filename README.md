@@ -19,14 +19,14 @@ Usage of Shellphish for attacking targets without prior mutual consent is illega
 
 
 ### Usage(Linux):
----
+```
 git clone https://github.com/thelinuxchoice/shellphish
 cd shellphish
 bash shellphish.sh
----
+```
 
 ### How to use on Termux(Android):
----
+```
 apt update && apt upgrade -y
 pkg install git wget php curl -y
 git clone https://github.com/thelinuxchoice/shellphish
@@ -35,19 +35,19 @@ chmod +x shellphish.sh
 bash shellphish.sh
 
 NOTE: To work properly in Android you have to Turn On Mobile Data and Hotspot. Without Mobile Data and Hotspot it will not download and generate URL.
----
+```
 
 ### Telegram:
----
+```
 For any kind of help, support, suggetion and request ask in my
 Telegram Group: http://t.me/groupnahidhasanabir
 
 Also join
 Telegram Channel: http://t.me/teletechstore
 for updates.
----
+```
 
 ### Blog:
----
+```
 My Blog Link: https://teletechstore.blogspot.com
----
+```
