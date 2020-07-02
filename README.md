@@ -1,5 +1,6 @@
 # ShellPhish v1.7-Mod
-## Author: github.com/thelinuxchoice
+## Modded by github.com/AbirHasan2005
+## Modded from github.com/thelinuxchoice
 ## Instagram: instagram.com/AbirHasan2005
 ## Twitter: twitter.com/AbirHasan2005
 ### Don't copy this code without giving me the credits, nerd! 
