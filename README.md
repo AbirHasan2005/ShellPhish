@@ -1,4 +1,5 @@
 # ShellPhish v1.7-Mod
+## First Coded by https://github.com/thelinuxchoice
 ## Modded by https://github.com/AbirHasan2005
 ## Instagram: https://instagram.com/AbirHasan2005
 ## Telegram: https://t.me/AbirHasan2005
