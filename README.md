@@ -22,6 +22,16 @@ Phishing Tool for Instagram, Facebook, Twitter, Snapchat, Github, Yahoo, Protonm
 ```
 ![Test Image 1](IMG_20200702_212654.jpg)
 
+## What's New:
+```
+size: 33KB
+1. Improved Welcome message,
+2. Improved Exit Option,
+3. Added feature for environment recognation,
+4. Added warnings to work properly,
+5. Improved colourized texts.
+```
+
 ### Port Forwarding using Ngrok or Serveo
 
 ## Legal disclaimer:
