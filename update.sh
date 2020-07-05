@@ -16,6 +16,10 @@ sleep 1.5
 cd ..
 rm -rf ShellPhish
 git clone https://github.com/AbirHasan2005/ShellPhish
+cd ShellPhish
+chmod +x shellphish.sh
+printf "\n\e[1;92mRestarting ...\n\e[0m"
+bash shellphish.sh
 
 }
 
