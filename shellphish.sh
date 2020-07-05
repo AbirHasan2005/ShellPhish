@@ -518,9 +518,9 @@ bash shellphish.sh
 
 elif [[ $option == 21 ]]; then
 printf "\n\e[0;92mTo Update this Script we have to delete \e[1;94mshellphish.sh\e[0;92m Script and run \e[1;94mupdate.sh\e[0;92m Script ...\n"
-sleep 5
-printf "Doing that for you\nRunning \e[1;94mupdate.sh\e[0;92m Script ...\n"
-sleep 1.5
+sleep 1
+printf "Running \e[1;94mupdate.sh\e[0;92m Script ...\n"
+sleep 1
 chmod +x update.sh
 bash update.sh
 
