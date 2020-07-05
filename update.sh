@@ -19,6 +19,7 @@ git clone https://github.com/AbirHasan2005/ShellPhish
 cd ShellPhish
 chmod +x shellphish.sh
 printf "\n\e[1;92mRestarting ...\n\e[0m"
+sleep 1
 bash shellphish.sh
 
 }
