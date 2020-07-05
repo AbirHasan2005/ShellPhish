@@ -24,13 +24,19 @@ Phishing Tool for Instagram, Facebook, Twitter, Snapchat, Github, Yahoo, Protonm
 
 ## What's New:
 ```
-
 1. Improved Welcome message,
 2. Improved Exit Option,
 3. Added feature for environment recognation,
 4. Added warnings to work properly,
 5. Improved colourized texts.
 6. Added Update Script for updating repository.
+```
+
+## How to Update:
+```
+cd ShellPhish
+chmod +x *
+bash update.sh
 ```
 
 ### Port Forwarding using Ngrok or Serveo
