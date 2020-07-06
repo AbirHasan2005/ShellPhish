@@ -69,7 +69,7 @@ NOTE: To work properly in Android you have to Turn On Mobile Data and Hotspot. W
 For any kind of help, support, suggetion and request ask in my
 Telegram Group:
 ```
-http://t.me/groupnahidhasanabir
+http://t.me/linux_repo
 ```
 
 Also join
