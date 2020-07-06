@@ -517,10 +517,13 @@ sleep 1
 bash shellphish.sh
 
 elif [[ $option == 21 ]]; then
-printf "\n\e[0;92mTo Update this Script we have to delete \e[1;94mshellphish.sh\e[0;92m Script and run \e[1;94mupdate.sh\e[0;92m Script ...\n"
-sleep 1
+clear
+printf "\n\e[1;92mRecommanded to copy your important codes and files ..."
+sleep 3
+printf "\n\e[1;91m Because this Update will erase \e[1;94mUserRecon\e[1;91m Directory and again download it via git ...\n\nYou can press Ctrl + C to Abort if you want ...\n"
+sleep 5
 printf "Running \e[1;94mupdate.sh\e[0;92m Script ...\n"
-sleep 1
+sleep 1.5
 chmod +x update.sh
 bash update.sh
 
