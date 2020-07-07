@@ -39,6 +39,8 @@ chmod +x *
 bash update.sh
 ```
 
+### Note: This is in development. If you find any problems than please report them to my Telegram Group.
+
 ### Port Forwarding using Ngrok or Serveo
 
 ## Legal disclaimer:
