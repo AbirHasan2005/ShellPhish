@@ -49,7 +49,7 @@ Usage of Shellphish for attacking targets without prior mutual consent is illega
 
 ### Usage (Linux):
 ```
-git clone https://github.com/thelinuxchoice/shellphish
+git clone https://github.com/AbirHasan2005ShellPhish
 cd shellphish
 bash shellphish.sh
 ```
