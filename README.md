@@ -49,7 +49,7 @@ Usage of Shellphish for attacking targets without prior mutual consent is illega
 
 ### Usage (Linux):
 ```
-git clone https://github.com/AbirHasan2005ShellPhish
+git clone https://github.com/AbirHasan2005/ShellPhish
 cd ShellPhish
 bash shellphish.sh
 ```
@@ -70,15 +70,7 @@ NOTE: To work properly in Android you have to Turn On Mobile Data and Hotspot. W
 
 For any kind of help, support, suggetion and request ask in my
 Telegram Group:
-```
 http://t.me/linux_repo
-```
-
-Also join
-Telegram Channel:
-```
-http://t.me/teletechstore
-```
 for updates.
 
 
