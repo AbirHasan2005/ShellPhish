@@ -22,16 +22,6 @@ Phishing Tool for Instagram, Facebook, Twitter, Snapchat, Github, Yahoo, Protonm
 ```
 ![Test Image 1](capture.png)
 
-## What's New:
-```
-1. Improved Welcome message,
-2. Improved Exit Option,
-3. Added feature for environment recognation,
-4. Added warnings to work properly,
-5. Improved colourized texts.
-6. Added Update Script for updating repository.
-```
-
 ## How to Update:
 ```
 cd ShellPhish
@@ -47,17 +37,10 @@ bash update.sh
 
 Usage of Shellphish for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
 
-### Usage (Linux):
-```
-git clone https://github.com/AbirHasan2005/ShellPhish
-cd ShellPhish
-bash shellphish.sh
-```
-
-### Usage [Termux(Android)]:
+### Usage:
 ```
 apt update && apt upgrade -y
-pkg install git wget php unzip curl -y
+apt install git wget php unzip curl -y
 git clone https://github.com/AbirHasan2005/ShellPhish
 cd ShellPhish
 chmod +x shellphish.sh
@@ -70,15 +53,12 @@ NOTE: To work properly in Android you have to Turn On Mobile Data and Hotspot. W
 
 For any kind of help, support, suggetion and request ask in my
 Telegram Group:
-http://t.me/linux_repo
-for updates.
+<a href="https://t.me/linux_repo"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
 
-
-### Blog:
-
-My Blog Link:
-```
-https://teletechstore.blogspot.com
-```
+## Follow on:
+<a href="https://github.com/AbirHasan2005"><img src="https://img.shields.io/badge/GitHub-Follow%20on%20GitHub-inactive.svg?logo=github"></a>
+<a href="https://twitter.com/AbirHasan2005"><img src="https://img.shields.io/badge/Twitter-Follow%20on%20Twitter-informational.svg?logo=twitter"></a>
+<a href="https://facebook.com/AbirHasan2005"><img src="https://img.shields.io/badge/Facebook-Follow%20on%20Facebook-blue.svg?logo=facebook"></a>
+<a href="https://instagram.com/AbirHasan2005"><img src="https://img.shields.io/badge/Instagram-Follow%20on%20Instagram-important.svg?logo=instagram"></a>
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/AbirHasan2005?locale.x=en_US)
