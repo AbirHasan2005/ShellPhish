@@ -1,5 +1,5 @@
 #!/bin/bash
-# Update Script for shellphish.sh v1.2-beta
+# Update Script
 # Script created by @AbirHasan2005
 
 
@@ -18,10 +18,8 @@ cd ..
 rm -rf ShellPhish
 git clone https://github.com/AbirHasan2005/ShellPhish
 cd ShellPhish
-chmod +x shellphish.sh
-printf "\n\e[1;92m Restarting \e[1;94mshellphish.sh\e[1;92m script ...\n\e[0m"
-bash shellphish.sh
-cd ..
+chmod +x *
+printf "\n\e[1;92m Update Complete ...\n\e[0m"
 
 }
 
