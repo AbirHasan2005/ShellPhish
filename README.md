@@ -59,10 +59,10 @@ bash update.sh
 ## Modified by @AbirHasan2005
 
 ## Credits:
-TheLinuxChoice: https://github.com/thelinuxchoice
-DarksecDevelopers: https://github.com/DarksecDevelopers
-UndeadSec: https://github.com/UndeadSec
-HTR-TECH: https://github.com/htr-tech
+#### TheLinuxChoice: https://github.com/thelinuxchoice
+#### DarksecDevelopers: https://github.com/DarksecDevelopers
+#### UndeadSec: https://github.com/UndeadSec
+#### HTR-TECH: https://github.com/htr-tech
 
 ### Here ***sites*** folder collected from ZPhisher (https://github.com/htr-tech/zphisher)
 
@@ -74,14 +74,11 @@ HTR-TECH: https://github.com/htr-tech
 ## Follow on:
 <p align="left">
 <a href="https://github.com/AbirHasan2005"><img src="https://img.shields.io/badge/GitHub-Follow%20on%20GitHub-inactive.svg?logo=github"></a>
-</p>
-<p align="left">
+</p><p align="left">
 <a href="https://twitter.com/AbirHasan2005"><img src="https://img.shields.io/badge/Twitter-Follow%20on%20Twitter-informational.svg?logo=twitter"></a>
-</p>
-<p align="left">
+</p><p align="left">
 <a href="https://facebook.com/AbirHasan2005"><img src="https://img.shields.io/badge/Facebook-Follow%20on%20Facebook-blue.svg?logo=facebook"></a>
-</p>
-<p align="left">
+</p><p align="left">
 <a href="https://instagram.com/AbirHasan2005"><img src="https://img.shields.io/badge/Instagram-Follow%20on%20Instagram-important.svg?logo=instagram"></a>
 </p>
 
