@@ -1,4 +1,4 @@
-#!/bin/bash
+Cd#!/bin/bash
 
 # ShellPhish v2.5-Mod
 # Moded by @AbirHasan2005
