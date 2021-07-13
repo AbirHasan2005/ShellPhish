@@ -68,7 +68,7 @@ bash update.sh
 
 ### For any kind of help, support, suggetion and request ask in my Telegram Group:
 <p align="left">
-<a href="https://t.me/linux_repo"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
+<a href="https://t.me/DevsZone"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
 </p>
 
 ## Follow on:
