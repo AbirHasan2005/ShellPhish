@@ -1,6 +1,12 @@
 # ShellPhish v2.5-MOD
 Phishing Tool for Facebook, Instagram, Google, Microsoft, Netflix, PayPal, Steam, Twitter, PlayStation, GitHub, Twitch, Pinterest, Snapchat, Linkedin, Ebay, Dropbox, Protonmail, Spotify, Reddit, Adobe, DeviantArt, Badoo, Origin, CryptoCoin, Yahoo, Wordpress, Yandex, StachoverFlow & VK. This is a modified version of ShellFish, ShellPhish & Zphisher.
 
+# Requirements
+- git
+- brew 
+- PHP
+- ngrok
+
 ## ChangeLog:
 - Updated to v2.5:
 	- Added 2020 New Login/Phishing Page.
@@ -33,7 +39,9 @@ Phishing Tool for Facebook, Instagram, Google, Microsoft, Netflix, PayPal, Steam
 - More extra features
 - More improvements
 - Bugs cleared
-- Fixed URL not showing
+- Added temporary Fix (ngrok workaround)
+- Added Requirements 
+
 
 ![Screenshot](screenshot.png)
 
