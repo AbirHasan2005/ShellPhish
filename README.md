@@ -50,6 +50,14 @@ Phishing Tool for Facebook, Instagram, Google, Microsoft, Netflix, PayPal, Steam
 ### Usage:
 ```bash
 apt update && apt upgrade -y && apt install git wget php unzip curl -y && git clone https://github.com/AbirHasan2005/ShellPhish && cd ShellPhish && chmod +x * && bash shellphish.sh
+
+Y0u will need to download ngrok ngrok.com/get-started/setup for workaround
+
+register and sign up for ngrok to obtain ngrok auth token in order for it to work push auth in directions as outlined on ngrok official website 
+
+fire up ngrok on the port (ngrok http 5555/standard is 5555) you're planning to running shellphish on, then open a seperate terminal and run shellphish, link/url will be present in ngrok's terminal tab. 
+
+
 ```
 
 ## How to Update:
