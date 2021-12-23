@@ -1,6 +1,12 @@
 # ShellPhish v2.5-MOD
 Phishing Tool for Facebook, Instagram, Google, Microsoft, Netflix, PayPal, Steam, Twitter, PlayStation, GitHub, Twitch, Pinterest, Snapchat, Linkedin, Ebay, Dropbox, Protonmail, Spotify, Reddit, Adobe, DeviantArt, Badoo, Origin, CryptoCoin, Yahoo, Wordpress, Yandex, StachoverFlow & VK. This is a modified version of ShellFish, ShellPhish & Zphisher.
 
+# Requirements
+- git
+- brew 
+- PHP
+- ngrok
+
 ## ChangeLog:
 - Updated to v2.5:
 	- Added 2020 New Login/Phishing Page.
@@ -33,7 +39,9 @@ Phishing Tool for Facebook, Instagram, Google, Microsoft, Netflix, PayPal, Steam
 - More extra features
 - More improvements
 - Bugs cleared
-- Fixed URL not showing
+- Added temporary Fix (ngrok workaround)
+- Added Requirements 
+
 
 ![Screenshot](screenshot.png)
 
@@ -43,6 +51,13 @@ Phishing Tool for Facebook, Instagram, Google, Microsoft, Netflix, PayPal, Steam
 ```bash
 apt update && apt upgrade -y && apt install git wget php unzip curl -y && git clone https://github.com/AbirHasan2005/ShellPhish && cd ShellPhish && chmod +x * && bash shellphish.sh
 ```
+
+- You will need to download ngrok ngrok.com/get-started/setup for workaround.
+
+- Register and sign up for ngrok to obtain ngrok auth token in order for it to work push auth in directions as outlined on ngrok official website.
+
+- Fire up ngrok on the port (ngrok http 5555/standard is 5555) you're planning to running shellphish on, then open a seperate terminal and run shellphish, link/url will be present in ngrok's terminal tab. 
+
 
 ## How to Update:
 ```bash
